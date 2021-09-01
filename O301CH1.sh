@@ -1,9 +1,6 @@
 #!/bin/bash
 
-#copies the below path to the cwd (working directory)
-cp /var/log/syslog >> /home/marcus/Challenges 
+workingdir=$(pwd)
 
-#appends the month, day, year, and time to the filename
-now=$(date +"%m_%d_%Y_%T") 
-#echoes the result
-echo "New : /var/log/syslog_$now"
+#copies the below path to the cwd (working directory) and appends the date and time
+cp /var/log/syslog $workingdir$(date +%m%d%Y%T) 
