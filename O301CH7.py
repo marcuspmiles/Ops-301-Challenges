@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Script Author: Marcus
 # Date of last Revision: 9-8-21
-
+# Please use sudo python3 to run this script
 
 import os
 
