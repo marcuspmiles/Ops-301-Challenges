@@ -6,7 +6,7 @@ print("----Entire List----")
 print(list)
 
 # Adding a variable to every item in the list
-v1, v2, v3, v4, v5, v6, v7, v8, v9, v10 = ['Cookie','John','Tree','List','Paper','Test','Cake','Igloo','Bar','Re>
+v1, v2, v3, v4, v5, v6, v7, v8, v9, v10 = ['Cookie','John','Tree','List','Paper','Test','Cake','Igloo','Bar']
 # Printing value 4 / variable 4
 print("----Fourth Element----")
 print(v4)
