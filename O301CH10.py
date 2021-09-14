@@ -3,15 +3,17 @@
 # Script to check if 100 is <, ==, >, !=, to a certain value
 
 var = 100
-if var == 105:
+var2 = 105
+
+if var2 == 105:
    print ("100 is equal to 100")
 elif var != 100:
    print ("100 is not equal to 105")
-if var != 101:
+if var != 100:
    print ("100 is not equal to 101")
 else:
    print ("100 is equal to 101")
-if var < 105:
+if var2 < 105:
    print ("100 is less than 105")
 else:
    print ("100 is not less than 105")
