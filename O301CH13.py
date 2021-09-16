@@ -1,4 +1,6 @@
 # Python Script
+# Function: Performs a GET request on any valid URL
+# Date of last revision: 9-16-21
 
 # Importing the request library
 import requests
